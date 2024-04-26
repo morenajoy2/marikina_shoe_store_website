@@ -1,0 +1,228 @@
+body {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+hr {
+    margin-top: 3%;
+}
+
+.orders-cart-main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.orders-cart {
+    padding-top: 32px;
+    padding-bottom: 72px;
+}
+
+.orders-cart-i {
+    max-width: 1440px;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orders-cart-i-row {
+    margin-left: -6px;
+    margin-right: -6px;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.orders-cart-i-column {
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.orders-cart-wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    display: flex;
+}
+
+.orders-cart-wrap-left {
+    width: calc(100% - 352px);
+    padding-right: 60px;
+    min-width: 1024px;
+}
+
+.orders-cart-wrap-left-header {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders-cart-title {
+    margin-bottom: 0;
+    letter-spacing: normal;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.orders-cart-subheader {
+    display: none;
+    letter-spacing: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    width: 100%;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.orders-cart-banner {
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    margin: 24px 0 8px;
+    width: 100% !important;
+}
+
+.orders-cart-space {
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+    display: flex !important;
+}
+
+.free-delivery {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #778DA9;
+}
+
+.member {
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 4px;
+    letter-spacing: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.orders-cart-empty {
+    padding-top: 24px;
+}
+
+.no-items {
+    letter-spacing: normal;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.orders-cart-summary {
+    -webkit-box-flex: 0;
+    flex: 0 1 352px;
+    padding-top: 0 !important;
+    width: 100%;
+}
+
+.orders-cart-summary-title {
+    letter-spacing: normal;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.orders-cart-summary-content {
+    display: block;
+}
+
+.orders-cart-summary-content-item {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.orders-cart-summary-content-label-text {
+    display: inline-flex;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.orders-cart-summary-content-label-value {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-left: 20px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.orders-cart-summary-content-item-total {
+    margin-top: 22px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.orders-cart-summary-checkout {
+    position: relative;
+    padding: 0;
+    border-top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0D1B2A;
+}
+
+.orders-cart-summary-checkout-wrap {
+    display: block;
+    padding-top: 42px;
+}
+
+.orders-cart-summary-checkout-wrap-button {
+    width: 100%;
+    height: 60px;
+    border-radius: 60px;
+    min-width: 158px;
+    background-color: #778DA9;
+    color: #FFFFFF;
+    letter-spacing: normal;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: none;
+    transition-property: background-color, border-color, box-shadow, -webkit-box-shadow;
+    transition-duration: 15s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 16px;
+    box-shadow: 0 0;
+    border: 1px solid transparent;
+}
